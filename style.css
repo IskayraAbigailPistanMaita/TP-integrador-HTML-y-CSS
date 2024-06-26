@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(241, 241, 241);
+    background-color: rgb(152, 98, 189);
+}
+.logo{
+    font-family: "Oswald" sans-serif;
+    font-weight: bold;
+    margin-right: 500px;
+    color: black;
+    list-style: none;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.navbar{
+    height: 100px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    list-style: none;
+    text-align: center;
+    justify-content: right;
+    padding: 30px 0;
+}
+.links{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+/*ENCUESTAS*/
+#banner{
+    display: flex;
+    padding-top: 1em;
+    text-align: center;
+    padding-left: 27em;
+}
+.encuestas ul li{
+    text-align: center;
+}
+.encuestas ul li a{
+    color: #eb3352;
+    text-decoration: none;
+}
+/*PRODUCTOS*/
+h1{
+    text-align: center;
+}
+main section{
+    padding: 1em 0;
+}
+#products{
+    min-width: 80%;
+    min-height: 60%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin: 3em auto;
+}
+.fila{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+#img_1{
+    height: 50%;
+    width: 55%;
+}
+#img_2{
+    height: 50%;
+    width: 60%;
+}
+#img_3{
+    height: 50%;
+    width: 100%;
+}
+#img_4{
+    height: 50%;
+    width: 80%;
+}
+article h2{
+    text-align: center;
+}
+article a{
+    background: #eb3352;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*STAFF*/
+.staffi{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px
+}
+#staff_1{
+    height: 50%;
+    width: 50%;
+}
+#staff_2{
+    height: 50%;
+    width: 50%;
+}
+#staff_3{
+    height: 50%;
+    width: 50%;
+}
+#staff_4{
+    height: 16%;
+    width: 16%;
+}
+/*NOTICIAS*/
+#noticias{
+    display: flex;
+    padding-top: 3em;
+}
+.noti ul{
+    width: 100%;
+    list-style: none;
+}
+.noti ul li{
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #161616;
+    border-radius: 25px;
+}
+.noti ul li a{
+    background: #eb3352;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*PUBLICIDAD*/
+#publicidad{
+    display: flex;
+    align-items: center;
+}
+#publi1{
+    height: 100%;
+    width: 50%;
+    margin-left: 200px;
+}
+#publi2{
+    height: 100%;
+    width: 100%;
+}
+#publi3{
+    height: 50%;
+    width: 25%;
+    margin-left: 100px;
+}
+/*---PAGINA LOG IN---*/
+#login{
+    min-height: 300px;
+    width: auto;
+}
+#formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+}
+.boxlog{
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    background: #ffffff;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+#btnlog{
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    background: #eb3352;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+label{
+    color: white;
+}
+/*---PAGINA DE SIGN UP---*/
+#signup{
+    min-height: 400px;
+    width: auto;
+}
+input[type="radio"] #male{
+    display: none;
+}
+input[type="radio"] #female{
+    display: none;
+}
+.gender{
+    border: 2px solid #eb3352;
+    padding: 5px;
+    background-color: #ffa4b4;
+}
+input[type="radio"]:checked + label{
+    background-color: #eb3352;
+}
+.boxsign{
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    background: #ffffff;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+#btnsign{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background: #eb3352;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*---PAGINA DE ABOUT US---*/
+#au{
+    margin: 20px;
+}
+#graficos{
+    display: flex;
+}
+#graficos img{
+    width: 30%;
+    height: 30%;
+    margin: 25px;
+    margin-left: 150px;
+}
+/*---PAGINA DE ENCUESTA 1---*/
+#encu1{
+    min-height: 300px;
+    width: auto;
+}
+#encuesta1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+}
+#btnencu{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background: #eb3352;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*---PAGINA DE ENCUESTA 2---*/
+#encu2{
+    min-height: 300px;
+    width: auto;
+}
+#encuesta2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+}
+/*FOOTER*/
+footer{
+    background: black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.footer_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 16px;
+}
+.footer_section img{
+    height: 50px;
+    width: 50px;
+}
+.social_links{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.social_links i{
+    width: 20px;
+    height: 20px;
+}
+.footer_bottom{
+    min-height: 60px;
+    margin-top: 52px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1f1b3d;
+    font-size: 14px;
+    opacity: .8;
+}
+.logo{
+    max-width: 160px;
+    margin-bottom: 8px;
+}
+h2{
+    text-align: left;
+    color: #d2d0e6;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 600;
+}
+menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+menu li{
+    margin-bottom: 16px;
+}
